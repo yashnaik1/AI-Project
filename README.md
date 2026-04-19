@@ -1,23 +1,24 @@
-Fairness Assessment of NYPD Stop-and-Frisk Data
-📌 Project Overview
+# Fairness Assessment of NYPD Stop-and-Frisk Data
+
+## 📌 Project Overview
 This project conducts a fairness and bias assessment of a machine learning model trained on NYPD Stop, Question, and Frisk (SQF) 2024 data. The goal is to evaluate whether predictive models used in high-stakes policing contexts treat demographic groups equitably and to explore mitigation strategies when disparities are identified.
 
 The project was completed as part of IS671: Responsible AI.
 
-🎯 Problem Statement
+## 🎯 Problem Statement
 Stop-and-Frisk policies have historically exhibited racial and demographic disparities. When predictive models are trained on such data, they risk reinforcing or amplifying these biases.
 
-Objectives:
+## Objectives:
 
 Train a model to predict whether a police stop results in an arrest
 Audit the model for fairness across protected demographic groups
 Identify proxy features that encode protected attributes
 Apply and evaluate bias mitigation techniques
 
-Target Variable:
+## Target Variable:
 SUSPECT_ARRESTED_FLAG
 
-📊 Dataset
+## 📊 Dataset
 Source: NYPD Stop, Question and Frisk – 2024
 Records: 25,386
 Features: 81
